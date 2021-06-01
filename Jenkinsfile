@@ -49,7 +49,7 @@ pipeline {
                 kubernetesDeploy(
                     kubeconfigId: 'kubeconfig',
                     configs: 'train-schedule-kube-canary.yaml'
-                    enableCofnigSubstitution: true
+                    enableConfigSubstitution: true
                     )
             }
         }
